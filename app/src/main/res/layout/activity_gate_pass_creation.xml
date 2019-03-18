@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gatePassCreation">
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:id="@+id/Dept"
+        android:layout_below="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Department"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:id="@+id/from"
+        android:layout_below="@id/Dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="From"
+        android:inputType="date"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:id="@+id/to"
+        android:layout_below="@id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:inputType="date"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/reason"
+        android:layout_below="@+id/to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reason"
+        android:lines="3"
+        android:layout_margin="15dp"/>
+    <Button
+        android:id="@+id/SubmitB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        />
+
+
+</RelativeLayout>

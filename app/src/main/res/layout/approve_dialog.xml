@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dispName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Name : "
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+    <TextView
+        android:id="@+id/DstudentName"
+        android:layout_alignBottom="@+id/dispName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/DdispDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dispName"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:text="Department: "
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+    <TextView
+        android:id="@+id/DstudentDept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/DdispDepartment"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/DdispFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/DdispDepartment"
+        android:layout_margin="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="From : "
+        />
+    <TextView
+        android:id="@+id/Dfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/DdispFrom"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/DdispTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/DdispFrom"
+        android:layout_margin="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="To : "
+        />
+    <TextView
+        android:id="@+id/DTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/DdispTo"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/DdispReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/DdispTo"
+        android:layout_margin="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:text="Reason : "/>
+    <TextView
+        android:id="@+id/DReason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/DdispReason"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/appoveB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Approve"
+        android:layout_above="@+id/declineB" />
+    <Button
+        android:id="@+id/declineB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Decline"/>
+
+</RelativeLayout>

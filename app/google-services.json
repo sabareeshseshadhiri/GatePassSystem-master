@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1032213008394",
+    "firebase_url": "https://gatepassambient.firebaseio.com",
+    "project_id": "gatepassambient",
+    "storage_bucket": "gatepassambient.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032213008394:android:d4252073cbecee2d",
+        "android_client_info": {
+          "package_name": "com.seven.zion.gatepass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032213008394-oqqnkk4a88903mgge1hp3r56f9aelop4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seven.zion.gatepass",
+            "certificate_hash": "4a5ae058d80fb2c7aceff283e703e699c0cb231d"
+          }
+        },
+        {
+          "client_id": "1032213008394-2ql2klq599qortvsv64vnmptub7c0tut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnPGNhjh87aenubSLMqYk5zM_URSQv0cU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032213008394-2ql2klq599qortvsv64vnmptub7c0tut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
